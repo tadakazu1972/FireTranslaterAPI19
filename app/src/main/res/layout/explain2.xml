@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="8dp">
+
+    <Button
+        android:id="@+id/btnExplain2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="病院搬送説明"
+        android:textSize="18sp"
+        android:textColor="#1111ee"
+        app:backgroundTint="#eeee11"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/e20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e200"
+        android:textColor="#111111"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/e21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/frame"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btne21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:gravity="start"/>
+    <Button
+        android:id="@+id/btne22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:gravity="start"/>
+    <Button
+        android:id="@+id/btne23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:gravity="start"/>
+    <Button
+        android:id="@+id/btne24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#111111"
+        android:gravity="start"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ff1111"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/btnClear"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:background="#00000000"
+            android:src="@drawable/clear_48dp_192x192"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:src="@drawable/home_48dp_192x192"
+            android:scaleType="fitCenter"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

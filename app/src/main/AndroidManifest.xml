@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tadakazu1972.firetranslater" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity">
+        </activity>
+        <activity android:name=".SyobyosyaActivity">
+        </activity>
+        <activity android:name=".Inquiry1Activity">
+        </activity>
+        <activity android:name=".Inquiry2Activity">
+        </activity>
+        <activity android:name=".Inquiry3Activity">
+        </activity>
+        <activity android:name=".Inquiry4Activity">
+        </activity>
+        <activity android:name=".Inquiry5Activity">
+        </activity>
+        <activity android:name=".Inquiry6Activity">
+        </activity>
+        <activity android:name=".Inquiry7Activity">
+        </activity>
+        <activity android:name=".PainActivity">
+        </activity>
+        <activity android:name=".HosokuActivity">
+        </activity>
+        <activity android:name=".ResultActivity">
+        </activity>
+        <activity android:name=".Explain1Activity">
+        </activity>
+        <activity android:name=".Explain2Activity">
+        </activity>
+    </application>
+
+</manifest>
